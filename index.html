@@ -2,7 +2,7 @@
 <html>
     <head>
     <title>Rodolfo's To-do List</title>
-    <link rel="stylesheet" href="/index.css" type="text/css" />
+    <link rel="stylesheet" href="/index.css"/>
     </head>
     
     <body>
@@ -11,26 +11,30 @@
         <ul>
             <li>
                 <input type="checkbox" />
-                <a href="/show.html">Contact old boss for job leads 1 pomodoros</a> 
+                <a href="/show.html">Contact old boss for job leads</a> 
+                <span class="pomodoro-estimate">1 pomodoros</span>
             </li>
             
             <li>
                 <input type="checkbox" />
-                Contact project manager friend for opportunities1 pomodoros
+                Contact project manager friend for opportunities 
+                <span class="pomodoro-estimate">1 pomodoros</span>
             </li>
             <li>
                 <input type="checkbox" />
-                Contact technical recruiter for job application status 1 pomodoros
+                Contact technical recruiter for job application status 
+                <span class="pomodoro-estimate">1 pomodoros</span>
             </li>
             <li>
                 <input type="checkbox" />
-                Apply at old employer for job opening 1 pomodoros
+                Apply at old employer for job opening 
+                <span class="pomodoro-estimate">1 pomodoros</span>
             </li>
         </ul>
        
        <input type="text" placeholder="Add a new todo..."/>
        <input type="number" placeholder="Pomodoro estimate..."/>
-       <input type="submit" value="Add todo">
+       <input id="add-new-todo-button" type="submit" value="Add todo">
        
     </body>
 </html>
